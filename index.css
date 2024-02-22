@@ -20,11 +20,12 @@
     margin: 10px;
 }
 .res-card{
-    width: 200px;
+    width: 180px;
     height: 350px;
     
     background-color: rgb(162, 252, 252);
     padding: 5px;
+    margin: 5px;
 }
 
 .search{
@@ -37,4 +38,8 @@
 .res-card:hover{
     border: 1px solid black;
     cursor: pointer;
+}
+.rescardcontainer{
+    display: flex;
+    flex-wrap: wrap;
 }

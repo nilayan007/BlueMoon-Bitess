@@ -37,6 +37,17 @@ const Body = ()=>{
             <div className="search">Search</div>
             <div className="rescardcontainer">
                 <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+                <RestaurentCard />
+
+
             </div>
         </div>
     );
