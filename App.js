@@ -9,7 +9,7 @@ const Header = () => {
                 <img className="logo" src="https://assets.materialup.com/uploads/61d86780-be13-47fa-81a6-226aac22db27/preview.jpg"/>
             </div>
             <div className="nav-items">
-                <ul>
+                <ul className="nav-wrapper">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Contact</li>
@@ -23,11 +23,15 @@ const Header = () => {
 const RestaurentCard =()=>{
     return (
         <div className="res-card">
-            <img className="res-logo" alt="res-logo" src="https://media-cdn.tripadvisor.com/media/photo-s/0a/cf/3a/82/chicken-tikka.jpg"/>
-            <h3>Nizam Restaurent</h3>
-            <h4>Chicken Roll, Biriyani, kabaabs!!</h4>
-            <h4>4.4 Stars</h4>
-            <h4>38 mins</h4>
+            <div className="card-image">
+                <img className="res-logo" alt="res-logo" src="https://media-cdn.tripadvisor.com/media/photo-s/0a/cf/3a/82/chicken-tikka.jpg"/>
+            </div>
+            <div className="card-content">
+                <h3>Nizam Restaurent</h3> 
+                <h4>Chicken Roll, Biriyani, kabaabs!!</h4>
+                <h4>4.4 Stars</h4>
+                <h4>38 mins</h4>
+            </div>
         </div>
     );
 };
@@ -35,19 +39,21 @@ const Body = ()=>{
     return (
         <div className="body"> 
             <div className="search">Search</div>
-            <div className="rescardcontainer">
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
-                <RestaurentCard />
+            <div className="rescardcontainer-outer">
+                <div className="rescardcontainer">
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
+                    <RestaurentCard />
 
 
+                </div>
             </div>
         </div>
     );
