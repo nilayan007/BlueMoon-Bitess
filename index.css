@@ -44,6 +44,10 @@ ul{
     padding: .8rem;
     border-radius: 6px;
 }
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
 .search{
     padding: 10px;
 }
@@ -52,10 +56,7 @@ ul{
     width: 100%;
     border-radius: 6px;
 }
-.res-card:hover{
-    border: 1px solid black;
-    cursor: pointer;
-}
+
 .rescardcontainer{
     display: flex;
     justify-content: center;
@@ -67,4 +68,16 @@ ul{
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+.filter-btn{
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    background-color: rgb(124, 231, 231);
+    border: none;
+}
+.filter-btn:hover{
+    border: 1px solid black;
+    cursor: pointer;
 }
